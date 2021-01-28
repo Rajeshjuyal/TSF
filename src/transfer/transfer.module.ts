@@ -3,7 +3,7 @@ import { TransferService } from './transfer.service';
 import { TransferController } from './transfer.controller';
 import { MongooseModule } from '@nestjs/mongoose';
 import { TransferSchema } from './transfer.model';
-import { UsersSchema } from 'src/users/users.model';
+import { UsersSchema } from '../users/users.model';
 
 @Module({
   imports: [

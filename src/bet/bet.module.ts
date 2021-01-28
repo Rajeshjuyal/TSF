@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { BetService } from './bet.service';
 import { BetController } from './bet.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { UsersSchema } from 'src/users/users.model';
+import { UsersSchema } from '../users/users.model';
 import { BetSchema } from './bet.model';
 
 @Module({
