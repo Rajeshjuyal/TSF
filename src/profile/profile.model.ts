@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 export const ProfileSchema = new mongoose.Schema({
-  User: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   balance: { type: String, required: true },
   winnings: { type: String, required: true },
   credit: { type: String, required: true },

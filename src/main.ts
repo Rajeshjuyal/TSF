@@ -70,7 +70,7 @@ async function bootstrap() {
     }
   }
   const document = SwaggerModule.createDocument(app, options, {
-    include: [BetModule, TransferModule, ProfileModule],
+    include: [BetModule, TransferModule, ProfileModule, UsersModule],
   });
   SwaggerModule.setup('/explorer', app, document);
   const configService = app.get(SeedService);
