@@ -1,12 +1,13 @@
 import * as mongoose from 'mongoose';
 
-export const SequenceSchema = new mongoose.Schema({
-  sequenceType: {
-    type: String
+export const SequenceSchema = new mongoose.Schema(
+  {
+    sequenceType: {
+      type: String,
+    },
+    sequenceNo: {
+      type: Number,
+    },
   },
-  sequenceNo: {
-    type: Number
-  },
-}, { timestamps: true });
-
-
+  { timestamps: true },
+);
