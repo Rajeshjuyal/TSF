@@ -8,7 +8,7 @@ export const TransferSchema = new mongoose.Schema({
 
   balance: { type: String, required: true },
   amount: { type: String, required: true },
-  pay: { type: String, required: true },
+  payd: { type: String, required: true },
 });
 
 export interface Transfer {
